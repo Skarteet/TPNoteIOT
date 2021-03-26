@@ -72,7 +72,7 @@ Install Arduino : https://www.arduino.cc/en/software
 Open file `TPNoteTemperature_Arduino.ino` 
 
 ![Arduino DHT](./img/capture_6.png)
-![Arduino DHT](./img/capture_6.png)
+![Arduino DHT](./img/capture_7.png)
 
 Install `DHT` module in library.  
 
