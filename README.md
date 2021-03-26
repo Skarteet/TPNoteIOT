@@ -8,7 +8,7 @@
 - Maxime Grand
 - Antoine Leblanc  
 
-## Requierments :
+## Requirements :
 - Git (clone project *optional)
 - FileZila (optional)
 - SSH (optional)
@@ -19,7 +19,7 @@
 - Captor DHT11 (humidity, temperature)
 - Cables
 
-## Install Rapbian OS to SD card and configure Wifi
+## Install Raspbian OS to SD card and configure Wifi
 https://www.seeedstudio.com/blog/2021/01/25/three-methods-to-configure-raspberry-pi-wifi/
 
 ## Share you network (optional) :
@@ -39,7 +39,7 @@ pi$ ~ mkdir tp
 Transfert file in `tp` folder :
 - main.py
 
-## Install dependancy :
+## Install dependency :
 ```
 sudo apt-get update
 sudo apt-get upgrade
@@ -64,7 +64,7 @@ sudo raspi-config
 ## Schema Database 
 ![Schema Database](./img/capture_4.png)
 
-## Aduino
+## Arduino
 Install Arduino : https://www.arduino.cc/en/software
 
 ![Arduino SDK](./img/capture_5.png)
@@ -74,7 +74,7 @@ Open file `TPNoteTemperature_Arduino.ino`
 ![Arduino DHT](./img/capture_6.png)
 ![Arduino DHT](./img/capture_6.png)
 
-Install `DHT` modules in library.  
+Install `DHT` module in library.  
 
 And compile / transfert the code.
 
