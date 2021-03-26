@@ -12,9 +12,8 @@ int led = 2;
 //Setup du capteur de température et de la led
 void setup() {
  Serial.begin(9600);
-pinMode(led, OUTPUT);
+ pinMode(led, OUTPUT);
  dht11.begin();
- pinMode(reversed, INPUT);
 }
 
 // Boucle total de 500ms -> récupération des valeurs toutes les ms
